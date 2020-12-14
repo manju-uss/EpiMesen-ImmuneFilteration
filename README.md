@@ -5,7 +5,7 @@ This script categorize cancer tissues/samples into epithelial and mesenchymal st
 
 REQUIREMENTS:
 
-        R, this script will automatically install requirements in its first run, if computer/laptop connected with internet.
+R, this script will automatically install requirements in its first run, if computer/laptop connected with internet.
         
 USAGE:
 
