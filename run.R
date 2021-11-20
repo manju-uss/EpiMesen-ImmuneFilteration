@@ -87,8 +87,8 @@ round(colMeans(d_epi[,-c(1,2)]),2) -> z
 colnames(d_mesen[,-c(1,2)]) -> x
 emt <- data.frame(name=x,mesen=y,epi=z)
 emt$score <- emt$epi-emt$mesen
-ifelse (emt$score <= quantile(emt$score,0.25), "mesen",
-	ifelse (emt$score >= quantile(emt$score,0.75),"epi","intermediate")
+ifelse (emt$score <= quantile(emt$score,0.25), "epi",
+	ifelse (emt$score >= quantile(emt$score,0.75),"mesen","intermediate")
  ) -> emt$class
 
 nrow(emt) -> total_samples
