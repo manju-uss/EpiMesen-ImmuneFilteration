@@ -26,3 +26,6 @@ Options:
         -h, --help
                 Show this help message and exit
                 
+citation:
+
+        Tiwari J, Negi S, Kashyap M, Nizamuddin S, Singh A, Khattri A. Pan-cancer analysis shows enrichment of macrophages, overexpression of checkpoint molecules, inhibitory cytokines and immune exhaustation signatures in EMT-high tumors. Frontiers in oncology 2021;Accepted
