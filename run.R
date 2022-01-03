@@ -86,7 +86,7 @@ round(colMeans(d_mesen[,-c(1,2)]),2) -> y
 round(colMeans(d_epi[,-c(1,2)]),2) -> z
 colnames(d_mesen[,-c(1,2)]) -> x
 emt <- data.frame(name=x,mesen=y,epi=z)
-emt$score <- emt$epi-emt$mesen
+emt$score <- emt$mesen-emt$epi
 ifelse (emt$score <= quantile(emt$score,0.25), "epi",
 	ifelse (emt$score >= quantile(emt$score,0.75),"mesen","intermediate")
  ) -> emt$class
