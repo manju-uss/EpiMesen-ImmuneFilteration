@@ -13,7 +13,8 @@ https://www.frontiersin.org/articles/10.3389/fonc.2021.793881/full
 REQUIREMENTS:
 
         R
-        This script will automatically install other requirements in its first run if computer/laptop connected with internet.
+        This script will automatically install other requirements 
+        in its first run if computer/laptop connected with internet.
         
 USAGE:
 
